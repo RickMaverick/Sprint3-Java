@@ -17,4 +17,4 @@ Falando em Estrutura do projeto, nosso código está dividido em 5 packages:
 
 5 - Conexoes → Este pacote é responsavel pela introdução de credenciais e conexão com nosso Banco de Dados Oracle, atraves da Classe ConexaoFactory.
 
-OBS: Tivemos dificuldades com metodos da Classe AcionamentoDAO que envolveriam Classes com Atributos de Referência.
+OBS: Tivemos dificuldades com metodos da Classe AcionamentoDAO que envolveriam Classes com Atributos de Referência. Para contornar a situação e trazer algo funcional, conseguimos fazer o cadastro de um SEGURADO PF, retirando do banco de dados uma coluna que seria do atributo de referência VEICULO. 
